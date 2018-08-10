@@ -6,8 +6,8 @@ const PORT = process.env.port || 3000
 
 // Create middleware
 const requestLogger = (req, res, next) => {
-    console.log(`${req.method.toUpperCase()}: ${req.originalUrl}`)
-    next()
+  console.log(`${req.method.toUpperCase()}: ${req.originalUrl}`)
+  next()
 }
 
 // Start the server
@@ -17,6 +17,4 @@ app.listen(PORT, () => console.log(`Hello world is listening on port ${PORT}`))
 app.use(requestLogger)
 
 // Respond to requests on root
-app.get('/', (req, res) => {
-    res.send('Hello world!')
-})
+app.get('/', (req, res) => res.send('Hello world!'))

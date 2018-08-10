@@ -1,14 +1,11 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
-  "description": "",
-  "main": "demo/hello-world.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "repository": "github:simmo/node-examples",
+  "license": "MIT",
+  "author": {
+    "name": "Mike Simmonds",
+    "url": "https://simmo.me"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"

@@ -1,17 +1,21 @@
-# Node exmaples
+# Node examples
+
+Supporting code for my NodeJS presentation.
+
+Slides: https://slides.com/simmo/nodejs
 
 ## Install
 
 Run `npm i` to install packages.
 
-## Run demo
+## Demos
 
 From the command line run...
 
-`node demo/hello-word.js`
+`node demos/hello-word.js`
 
-`node demo/middleware.js`
+`node demos/middleware.js`
 
-`node demo/sockets.js`
+`node demos/sockets.js`
 
 All demos should be available on http://localhost:3000

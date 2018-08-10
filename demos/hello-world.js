@@ -8,6 +8,4 @@ const PORT = process.env.port || 3000
 app.listen(PORT, () => console.log(`Hello world is listening on port ${PORT}`))
 
 // Respond to requests on root
-app.get('/', (req, res) => {
-    res.send('Hello world!')
-})
+app.get('/', (req, res) => res.send('Hello world!'))
