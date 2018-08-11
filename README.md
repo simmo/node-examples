@@ -19,3 +19,7 @@ From the command line run...
 `node demos/sockets.js`
 
 All demos should be available on http://localhost:3000
+
+## License
+
+MIT © [Mike Simmonds](https://simmo.me)
