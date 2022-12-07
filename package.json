@@ -7,7 +7,7 @@
     "url": "https://simmo.me"
   },
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.18.2",
     "socket.io": "^2.4.0"
   }
 }
